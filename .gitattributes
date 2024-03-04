@@ -1,1 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+Week_5/code/fhv_tripdata_2019-10.csv filter=lfs diff=lfs merge=lfs -text
