@@ -4,6 +4,7 @@
 
 ## Questions 1. Highest average trip time
 Midtown Center, University Heights/Morris Heights
+```
 select * FROM trip_anomalies WHERE (max_trip_time_minutes BETWEEN 10 AND 20)  ORDER BY avg_trip_time_minutes DESC;
 ```
 
@@ -14,7 +15,7 @@ select count(*) FROM trip_anomalies WHERE  pickup_zone Like "%Midtown Center%" ;
 ```
 
 ## Question 3. Top 3 busiest zones
-LaGuardia Airport, Lincoln Square East, JFK Airport
+LaGuardia Airport, Lincoln Square East, JFK Airportq
 ```ssh
 from pyspark.sql import functions as F
 df \
