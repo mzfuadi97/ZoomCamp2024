@@ -71,12 +71,20 @@ print(f'took {(t1 - t0):.2f} seconds')
 ```
 
 ## Question 5. Time to send data
-0.51 seconds
+Script execution completed in 76.45 seconds.
+```ssh
+python green_producer.py
+```
 
 ## Question 6. Parsing the data
+DataFrame[lpep_pickup_datetime: string, lpep_dropoff_datetime: string, PULocationID: int, DOLocationID: int, passenger_count: double, trip_distance: double, tip_amount: double]
 ```ssh
+
+python parsing_data.py
 ```
 
 ## Question 7. Most popular destination 
+East Harlem South 
 ```ssh
+python join_data.py
 ```
